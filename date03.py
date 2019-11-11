@@ -11,5 +11,5 @@ if 6 <= now.month <= 8:
 if 9 <= now.month <= 11:
     print("이번 달은 {}월로 가을입니다!".format(now.month))
 
-if 12 <= now.month <= 2:
+if now.month == 12 or 1 <= now.month <= 2:
     print("이번 달은 {}월로 겨울입니다!".format(now.month))
