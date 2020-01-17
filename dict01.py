@@ -16,3 +16,5 @@ print()
 # 값을 변경합니다.
 dictionary["name"] = "8D 건조 망고"
 print("name:", dictionary["name"])
+
+dictionary["ingredient"][1]
