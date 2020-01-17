@@ -17,4 +17,8 @@ print()
 dictionary["name"] = "8D 건조 망고"
 print("name:", dictionary["name"])
 
-dictionary["ingredient"][1]
+dictionary["price"] = 5000
+dictionary
+
+del dictionary["ingredient"]
+dictionary
